@@ -37,3 +37,26 @@ console.log(typeof bigInt)
 console.log(typeof myFunction)
 // Function
 
+// ++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Piyush Verma"
+
+let anothername = myYoutubename
+anothername = "chaiaaurcode"
+console.log(myYoutubename)
+console.log(anothername)
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user
+
+user2.email = "piyush@google.com"
+console.log(user.email);
+console.log(user2.email);
+// Both output piyush@gmail.com
+
